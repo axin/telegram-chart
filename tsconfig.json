@@ -1,0 +1,16 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "strict": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "resolveJsonModule": true
+    }
+}
